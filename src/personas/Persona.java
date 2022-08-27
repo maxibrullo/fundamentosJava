@@ -16,4 +16,38 @@ public class Persona {
         this.edad = edad;
         this.genero = genero;
     }
+
+    //Getters and Setters
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Integer getEdad() {
+        return edad;
+    }
+
+    public void setEdad(Integer edad) {
+        this.edad = edad;
+    }
+
+    public Character getGenero() {
+        return genero;
+    }
+
+    public void setGenero(Character genero) {
+        this.genero = genero;
+    }
+
+    public static int getIdPersona() {
+        return idPersona;
+    }
+
+    public static void setIdPersona(int idPersona) {
+        Persona.idPersona = idPersona;
+    }
 }
