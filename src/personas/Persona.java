@@ -47,5 +47,12 @@ public class Persona {
         return idPersona;
     }
 
-
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", genero=" + genero +
+                '}';
+    }
 }
