@@ -6,7 +6,7 @@ public class Persona {
     private Integer edad;
     private Character genero;
 
-    private static idPersona
+    private static int idPersona;
 
     public Persona() {
     }
