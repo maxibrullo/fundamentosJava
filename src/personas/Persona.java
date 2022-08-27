@@ -47,7 +47,5 @@ public class Persona {
         return idPersona;
     }
 
-    public static void setIdPersona(int idPersona) {
-        Persona.idPersona = idPersona;
-    }
+
 }
